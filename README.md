@@ -4,8 +4,8 @@ Nanovea profilometer - plotting SUR file data
 This is an attempt to plot SUR data from Nanovea products.   The software for Nanovea comes with a dongle (software key) so it is sometimes inconvenient for multiple users.    
 
 Step 1.   You have to have the Nanovea software key to export your data into X,Y,Z format in CSV or TXT file(s).    This is in the Nanovea help files and documents.  This will depend on which studiable you are using, such as wheter
-or not it was extracted, levels, or thresholds set.   So if you choose to export a raw and un-flattened image, that is what you will be working with.    This is therefore not idea, but I did not find any code for reading metrology *.sur failes
-in Python, although they seem to exist in Matlab.
+or not it was extracted, levels, or thresholds set.   So if you choose to export a raw and un-flattened image, that is what you will be working with.    This is therefore maybe not ideal.   I did not find any code for reading metrology *.sur failes
+in Python, although they seem to exist in Matlab but this will allow you to work with data and produce images and may serve as a good starting point for further development.
 
 Step 2.   You need to know a little python.  Place your TXT files (they will possibly be quite large) in a directory where your python or Jupyter environment can find them.
 
